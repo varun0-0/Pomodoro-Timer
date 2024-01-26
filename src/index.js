@@ -1,21 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './_variables.sass';
-import './index.sass';
-import Timer from './Timer';
-import { StateProvider } from "./contexts/stateProvider";
-import reducer, { initialState } from "./reducer";
-import ThemeProvider from './contexts/themeProvider';
-import Credits from './components/Credits/Credits';
+import HTML5Backend from 'react-dnd-html5-backend';
+import { DndProvider } from 'react-dnd';
+import Pomodoro from './containers/Pomodoro';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <StateProvider reducer={reducer} initialState={initialState}>
-      <ThemeProvider>
-        <Timer />
-        <Credits />
-      </ThemeProvider>
-    </StateProvider>
-  </React.StrictMode>,
+  <DndProvider backend={HTML5Backend}>
+    <Pomodoro />
+  </DndProvider>,
   document.getElementById('root')
 );
