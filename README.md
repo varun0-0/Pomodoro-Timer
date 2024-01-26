@@ -3,8 +3,6 @@
 
 ### [Live Demo](https://remarkable-kitsune-aa91f6.netlify.app/)
 
-![Screenshot](screenshot.png)
-
 ## Features
 
 * Keyboard Shortcuts
