@@ -1,7 +1,7 @@
 # Pomodoro Timer
 :tomato: Pomodoro timer built with React
 
-### [Live Demo](https://remarkable-kitsune-aa91f6.netlify.app/)
+### [Live Demo](https://remarkable-kitsune-aa91f6.netlify.app/){:target="_blank"}
 
 ## Features
 
